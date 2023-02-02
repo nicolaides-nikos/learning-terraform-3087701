@@ -35,7 +35,7 @@ resource "aws_security_group" "blog" {
   }
   vpc_id = data.aws_vpc.default.id
 }
- # uhuhu 
+ # uhuhu Comment. This should push
 resource "aws_security_group_rule" "blog_http_in" {
   type        = "ingress"
   from_port   = 80
